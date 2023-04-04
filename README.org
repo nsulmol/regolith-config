@@ -1,0 +1,42 @@
+* Regolith Install: [[https://regolith-desktop.com/][Regolith website]]
+
+Copy-pasted from there:
+   1. Register the Regolith public key to your local apt:
+      #+begin_src bash :result output
+        wget -qO - https://regolith-desktop.org/regolith.key | \
+            gpg --dearmor | sudo tee /usr/share/keyrings/regolith-archive-keyring.gpg > /dev/null
+      #+end_src
+
+   2. Add the repository URL to your local apt:
+
+      #+begin_src sh
+        echo deb "[arch=amd64 signed-by=/usr/share/keyrings/regolith-archive-keyring.gpg] \
+            https://regolith-desktop.org/release-debian-bullseye-amd64 bullseye main" | \
+            sudo tee /etc/apt/sources.list.d/regolith.list
+      #+end_src
+
+   3. Update apt and install Regolith
+
+      #+begin_src sh :results output
+        sudo apt update
+        sudo apt install regolith-desktop regolith-compositor-picom-glx
+        sudo apt upgrade
+      #+end_src
+
+   4. System Restart (you should now be able to choose Regolith in the 'gear' box on the bottom right, during login).
+
+   5. Install status indicators:
+
+      #+begin_src sh :results output
+        sudo apt install i3xrocks-focused-window-name i3xrocks-rofication i3xrocks-info i3xrocks-app-launcher i3xrocks-memory i3xrocks-battery
+      #+end_src
+
+   6. Install theme
+      #+begin_src sh :results :output
+       sudo apt-get install regolith-look-gruvbox
+      #+end_src
+
+   7. Set configuration (FINISH THIS)
+      #+begin_src sh :results output
+        ln -s ~/Dropbox/Code/regolith-config/Xresources ~/.config/regolith2/Xresources
+      #+end_src

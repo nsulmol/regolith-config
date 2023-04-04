@@ -1,0 +1,16 @@
+! Use gruvbox theme
+regolith.look.path: /usr/share/regolith-look/gruvbox
+! Set i3 bar to bottom!
+i3-wm.bar.position: bottom
+! Add gaps between windows
+i3-wm.gaps.inner.size: 20
+
+! Set default location for applications to open:
+! emacs: 1
+! firefox: 2
+! terminal: 3
+! (I will open my music in its own firefox window and
+! move it to the scratchpad)
+for_window [class="emacs"] move to workspace $ws1
+for_window [class="firefox"] move to workspace $ws2
+for_window [class="terminal"] move to workspace $ws3
