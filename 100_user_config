@@ -1,0 +1,12 @@
+# Assign applications to our pre-chosen workspaces
+assign [class="Emacs"] "1: code"
+assign [class="Firefox-esr"] "2: web"
+assign [class="Gnome-terminal"] "3: terminal"
+for_window [class="Emacs"] move to "1: code"
+for_window [class="Firefox-esr"] move to "2: web"
+for_window [class="Gnome-terminal"] move "3: terminal"
+
+# Open these same applications on startutp
+exec emacs
+exec firefox
+exec gnome-terminal

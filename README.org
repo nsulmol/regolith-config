@@ -38,5 +38,7 @@ Copy-pasted from there:
 
    7. Set configuration (FINISH THIS)
       #+begin_src sh :results output
-        ln -s ~/Dropbox/Code/regolith-config/Xresources ~/.config/regolith2/Xresources
+        ln -s ~/Code/regolith-config/Xresources ~/.config/regolith2/Xresources
+        mkdir -p ~/.config/regolith2/i3/config.d
+        ln -s ~/Code/regolith/config/100_user_config ~/.config/regolith2/i3/config.d/100_user_config
       #+end_src
