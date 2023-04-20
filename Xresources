@@ -13,6 +13,7 @@ i3-wm.workspace.03.name: 3: terminal
 
 ! Overrides to make our theme more like zenburn
 regolith.wallpaper.file: ~/Code/regolith-config/assets/wallpaper.png
+regolith.lockscreen.wallpaper.file: ~/Code/regolith-config/assets/wallpaper.png
 
 ! Accentuate border (DOES NOT WORK)
 ! really want zenburn red: ac7373
