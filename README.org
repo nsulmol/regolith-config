@@ -41,6 +41,6 @@ Copy-pasted from there:
    7. Set configuration
       #+begin_src sh :dir /sudo:: :results output
         mkdir -p ~/.config/regolith2/i3/config.d
-        ln -s ~/Code/regolith-config/Xresources ~/.config/regolith2/Xresources
-        ln -s ~/Code/regolith-config/100_user_config ~/.config/regolith2/i3/config.d/100_user_config
+        ln -s ~/Code/personal/regolith-config/Xresources ~/.config/regolith2/Xresources
+        ln -s ~/Code/personal/regolith-config/100_user_config ~/.config/regolith2/i3/config.d/100_user_config
       #+end_src
