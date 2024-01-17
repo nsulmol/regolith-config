@@ -30,7 +30,7 @@ Copy-pasted from there:
    5. Install status indicators:
 
       #+begin_src sh :dir /sudo:: :results output
-        sudo apt install -y i3xrocks-focused-window-name i3xrocks-rofication i3xrocks-info i3xrocks-app-launcher i3xrocks-memory i3xrocks-battery
+        sudo apt install -y i3xrocks-focused-window-name i3xrocks-rofication i3xrocks-info i3xrocks-app-launcher i3xrocks-memory i3xrocks-battery i3xrocks-time
       #+end_src
 
    6. Install theme
