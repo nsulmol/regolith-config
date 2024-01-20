@@ -2,20 +2,20 @@
 regolith.look.path: /usr/share/regolith-look/gruvbox
 
 ! Set i3 bar to bottom!
-i3-wm.bar.position: bottom
+wm.bar.position: bottom
 ! Add gaps between windows
-i3-wm.gaps.inner.size: 10
+wm.gaps.inner.size: 5
 
 ! Set workspace names
-i3-wm.workspace.01.name: 1: code
-i3-wm.workspace.02.name: 2: web
-i3-wm.workspace.03.name: 3: terminal
+wm.workspace.01.name: 1: code
+wm.workspace.02.name: 2: web
+wm.workspace.03.name: 3: terminal
 
 ! Overrides to make our theme more like zenburn
-regolith.wallpaper.file: ~/Code/personal/regolith-config/assets/wallpaper.png
-regolith.lockscreen.wallpaper.file: ~/Code/personal/regolith-config/assets/wallpaper.png
+regolith.wallpaper.file: ~/Code/personal/regolith-config/assets/framework_wallpaper.jpg
+regolith.lockscreen.wallpaper.file: ~/Code/personal/regolith-config/assets/framework_lockscreen.jpg
 
 ! Accentuate border (DOES NOT WORK)
 ! really want zenburn red: ac7373
-! i3-wm.client.focused.color.child_border: #FF0000
-! i3-wm.window.border.size: 1
+wm.client.focused.color.child_border: #ac7373
+wm.window.border.size: 1
