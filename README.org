@@ -44,3 +44,10 @@ Copy-pasted from there:
         ln -s ~/Code/personal/regolith-config/Xresources ~/.config/regolith3/Xresources
         ln -s ~/Code/personal/regolith-config/100_user_config ~/.config/regolith3/config.d/100_user_config
       #+end_src
+
+
+* Notes
+
+- The default gruvbox theme *did not work* well for all applications (particularly, libreoffice). We were getting not very visible icons.
+
+  To fix it, I went into /usr/share/regolith-look/gruvbox/root and changed gtk.theme_name and gtk.icon_theme_name to Yaru-sage-dark.
