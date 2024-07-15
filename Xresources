@@ -13,6 +13,7 @@ wm.workspace.03.name: 3: terminal
 
 ! Overrides to make our theme more like zenburn
 regolith.wallpaper.file: ~/Code/personal/regolith-config/assets/framework_wallpaper.jpg
+regolith.wallpaper.options: scaled
 regolith.lockscreen.wallpaper.file: ~/Code/personal/regolith-config/assets/framework_lockscreen.jpg
 
 ! Accentuate border (DOES NOT WORK)
