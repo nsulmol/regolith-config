@@ -18,5 +18,5 @@ regolith.lockscreen.wallpaper.file: ~/Code/personal/regolith-config/assets/frame
 
 ! Accentuate border (DOES NOT WORK)
 ! really want zenburn red: ac7373
-wm.client.focused.color.child_border: #ac7373
-wm.window.border.size: 1
+wm.client.focused.color.child_border: #e89393
+wm.window.border.size: 5
